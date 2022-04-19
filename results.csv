@@ -1,4 +1,7 @@
 system_id,benchmark_name,MiB/s
-62B8CB6F-60A2-4260-9F60-D793D62232BB,c_standard,127
-62B8CB6F-60A2-4260-9F60-D793D62232BB,c_optimized,154
-
+62B8CB6F-60A2-4260-9F60-D793D62232BB,Naive C (clang, standard, built with no options),127
+62B8CB6F-60A2-4260-9F60-D793D62232BB,Naive C (clang, optimized, built with -O3),154
+62B8CB6F-60A2-4260-9F60-D793D62232BB,Naive Python; python.org 3.10.4,24.3
+62B8CB6F-60A2-4260-9F60-D793D62232BB,Optimized Python (Templated); python.org 3.10.4,159
+62B8CB6F-60A2-4260-9F60-D793D62232BB,Naive Python built with mypyc 0.942, CPython 3.10.4,31.1
+62B8CB6F-60A2-4260-9F60-D793D62232BB,Optimized Python (Templated) built with mypyc 0.942, CPython 3.10.4,233
