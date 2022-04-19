@@ -1,5 +1,5 @@
 def fizzbuzz() -> None:
-    for counter in range(1, 1000000001):
+    for counter in range(1, 1000000000):
         fizz = counter % 3 == 0
         buzz = counter % 5 == 0
         if fizz:
